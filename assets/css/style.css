@@ -266,39 +266,39 @@ body.nav-active { overflow: hidden; }
   position: relative;
   max-width: max-content;
   padding-block: 8px;
-  opacity: 20.5;
+  opacity: 25.5;
 }
 
 .slider-control .line {
-  width: 30px;
-  height: 1px;
+  width: 50px;
+  height: 4px;
   background-color: var(--white);
 }
 
 .slider-control .arrow {
   position: absolute;
   transform: translateY(-60%) rotate(45deg);
-  width: 10px;
-  height: 10px;
-  border-style: solid;
+  width: 20px;
+  height: 20px;
+  border-style: double;
   border-color: var(--white);
 }
 
 .slider-control.prev .arrow {
   left: 0;
-  border-width: 0 0 1px 1px;
+  border-width: 0 0 4px 4px;
 }
 
 .slider-control.next .arrow {
   right: 0;
-  border-width: 1px 1px 0 0;
+  border-width: 4px 4px 0 0;
 }
 
 .slider-controls {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 300px;
   margin-block-start: 40px;
 }
 
